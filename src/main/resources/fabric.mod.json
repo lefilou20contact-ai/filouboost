@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "filouboost",
+	"version": "${version}",
+	"name": "FilouBoost",
+	"description": "Client-side performance tweaks, designed to work alongside the best optimization mods (Sodium, Lithium, FerriteCore, ModernFix, ImmediatelyFast, Entity Culling).",
+	"authors": [
+		"LeFilou2.0"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/filouboost",
+		"sources": "https://github.com/lefilou20contact-ai/filouboost",
+		"issues": "https://github.com/lefilou20contact-ai/filouboost/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"fr.lefilou.filouboost.client.FilouBoostClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"sodium": "*",
+		"lithium": "*",
+		"ferritecore": "*",
+		"modernfix": "*",
+		"immediatelyfast": "*",
+		"entityculling": "*"
+	}
+}
